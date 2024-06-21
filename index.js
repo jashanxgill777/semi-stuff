@@ -37,8 +37,8 @@ client.on("messageCreate", async (message) => {
 
 
     if (
-    message.guild.id == process.env.ASTROCTX &&
-    message.author.id == process.env.BOT
+    message.guild.id == 1245615678380048425 &&
+    message.author.id == 716390085896962058
     ) {
     const run = async (id) => {
       await message.clickButton(id);
